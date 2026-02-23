@@ -1,28 +1,21 @@
-## Quellen 👋
+# Quellen
 
-I'm Quellen — Senior Backend Engineer building data infrastructure in the Solana ecosystem.
+Senior backend engineer with 5+ years in Rust and TypeScript. I've spent most of that time in the Solana ecosystem building the infrastructure that sits between raw chain data and something actually useful — indexers, pricing engines, data pipelines.
 
-5+ years of Rust and TypeScript, focused on indexing, pricing, and making on-chain data actually usable.
+---
 
-### what i've built
+## Notable Projects
 
-**[veritas](https://github.com/quellen-sol/veritas)** — real-time token pricing engine. graph-based BFS price derivation across liquidity pools, oracle feeds, and on-chain token relationships. powers live pricing for thousands of tokens.
-> rust · axum · amqp · solana-sdk
+### [Veritas](https://github.com/quellen-sol/veritas)
+Real-time token pricing engine for Solana. Derives prices across thousands of tokens using graph-based BFS over liquidity pools, oracle feeds, and many other types of AMMs. Exposes a web server with built-in observability — request tracing, pricing path inspection, and health endpoints — so you can actually see what the engine is doing and debug it when something looks off.
 
-**[ingestooor](https://github.com/quellen-sol/ingestooor)** — high-throughput solana transaction ingestion pipeline. parses swaps, lending, staking, and transfers across jupiter, raydium, orca, meteora, kamino, marginfi, openbook, and more. structured output to clickhouse & postgres.
-> rust · tokio · clickhouse · postgresql · rabbitmq
+### [Solana Geyser Ingestooor](https://github.com/quellen-sol/ingestooor)
+High-throughput Solana transaction ingestion pipeline built for sustained load. Raw on-chain data is essentially noise — this turns it into structured, queryable records by parsing swaps, lending, staking, and transfers across Jupiter, Raydium, Orca, Meteora, Kamino, MarginFi, and OpenBook, then writing to ClickHouse and Postgres. Designing for backpressure and recovery is most of the job here.
 
-**[solana-escrow-program](https://github.com/quellen-sol/solana-escrow-program)** — on-chain escrow program with PDA-based custody.
-> rust · anchor
+---
 
-### stack
+## Open To
 
-```
-rust · typescript · tokio · axum · anchor · solana sdk · clickhouse · postgresql · rabbitmq · docker
-```
-
-### currently
-
-open to senior backend / infra roles in crypto. remote or irl.
+Senior backend and infra roles. Crypto-native companies preferred.
 
 📫 marquelle.nesbitt@gmail.com
