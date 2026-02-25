@@ -1,6 +1,6 @@
 # Quellen
 
-Senior backend engineer with 5+ years in Rust and TypeScript. Most of that time has been in the Solana ecosystem, building the services that turn raw on-chain data into something useful: pricing engines, indexers, data pipelines.
+Senior backend engineer with 5+ years in Rust and TypeScript. All of that time has been in the Solana ecosystem, building the services that turn raw on-chain data into something useful: pricing engines, indexers, data pipelines.
 
 ---
 
@@ -14,6 +14,6 @@ High-throughput Solana transaction ingestion pipeline built for sustained load. 
 
 ---
 
-Open to: Senior Backend and/or Infra roles in Solana
+Open to Senior Backend roles in Solana
 
 📫 marquelle.nesbitt@gmail.com
