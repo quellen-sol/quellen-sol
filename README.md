@@ -14,6 +14,6 @@ High-throughput Solana transaction ingestion pipeline built for sustained load. 
 
 ---
 
-Open to Senior Backend roles in Solana
+Open to Senior Backend roles anywhere!
 
 📫 marquelle.nesbitt@gmail.com
